@@ -1,0 +1,19 @@
+name: Sync to OSS
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: OSS
+        uses: manyuanrong/setup-ossutil@v2.0
+        with:
+            endpoint: "oss-cn-zhangjiakou.aliyuncs.com"
+            access-key-id: ${{secrets.OSS_ACCESSKEY_ID}}
+            access-key-secret: ${{secrets.OSS_ACCESS_KEY_SECRET}}
+      - run: ossutil cp -rf / oss://deepberry/img/common
