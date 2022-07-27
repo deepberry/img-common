@@ -16,4 +16,4 @@ jobs:
             endpoint: "oss-cn-zhangjiakou.aliyuncs.com"
             access-key-id: ${{secrets.OSS_ACCESSKEY_ID}}
             access-key-secret: ${{secrets.OSS_ACCESS_KEY_SECRET}}
-      - run: ossutil cp -rf ./ oss://deepberry/img/common
+      - run: ossutil cp -rf src oss://deepberry/img/common
