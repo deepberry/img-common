@@ -1,5 +1,8 @@
-<svg fill="#1976d2" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
-        <path
-            d="M4.4,3.3h8.8V7.7H4.4Zm26.4,33h8.8v4.4H30.8ZM0,14.3H11v4.4H0Zm15.4,0H22v4.4H15.4Zm11,0H39.6v4.4H26.4Zm-22,11H17.6v4.4H4.4Zm17.6,0h6.6v4.4H22Zm11,0H44v4.4H33ZM17.6,3.3H44V7.7H17.6ZM0,36.3H26.4v4.4H0Z"
-        />
-    </svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+    <path style="fill-rule:evenodd;clip-rule:evenodd;fill:#1976D2;" d="M29.959,22.347h59.918v29.959H29.959V22.347z M209.714,247.041
+	h59.918V277h-59.918V247.041z M0,97.245h74.898v29.959H0V97.245z M104.857,97.245h44.939v29.959h-44.939V97.245z M179.755,97.245
+	h89.877v29.959h-89.877V97.245z M29.959,172.143h89.877v29.959H29.959L29.959,172.143z M149.796,172.143h44.939v29.959h-44.939
+	V172.143z M224.694,172.143h74.898v29.959h-74.898V172.143z M119.837,22.347h179.755v29.959H119.837V22.347z M0,247.041h179.755V277
+	H0V247.041z" />
+</svg>
